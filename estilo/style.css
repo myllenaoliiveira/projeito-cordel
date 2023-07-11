@@ -1,7 +1,8 @@
 @charset "UFT-8";
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Dirt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+
 
 *{
     margin: 0px;
@@ -41,10 +42,13 @@ section{
     padding-bottom: 10vh;
     line-height: 2em ;
     padding-left: 30px;
-    font-family: 'Meow Script', cursive;
+    font-family: 'Indie Flower', cursive;
     font-size: 4vw;
-    font-weight: bold;
+    font-weight: bolder;
 
+}
+section > p {
+    padding-bottom: 2em;
 }
 section.normal{
     background-color: white;
@@ -53,12 +57,26 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.603);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-attachment: fixed;
 }
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.61);
+    text-shadow: 1px 1px 0px black;
   
+}
+section#img01{
+    background-image: url(../imagens/imagem2red.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+
 }
 
 footer{
