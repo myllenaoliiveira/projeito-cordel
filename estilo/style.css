@@ -1,0 +1,70 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: normal;
+    font-size: 10vw;
+}
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none
+    ;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em ;
+    padding-left: 30px;
+    font-family: 'Meow Script', cursive;
+    font-size: 4vw;
+    font-weight: bold;
+
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.247);
+  
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
